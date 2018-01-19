@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="2">
+            failures="0"
+            tests="5">
 
   <testsuite name="sample.test"
-    errors="0" failures="1" hostname="" id="" package="sample.test" skipped="0"
-    tests="2" time="30.17" timestamp="Fri, 19 Jan 2018 14:11:58 GMT">
+    errors="0" failures="0" hostname="" id="" package="sample.test" skipped="0"
+    tests="5" time="49.31" timestamp="Fri, 19 Jan 2018 17:06:00 GMT">
   
-    <testcase name="Login as Mikhail Shaw" classname="sample.test" time="22.30" assertions="7">
+    <testcase name="Login as Mikhail Shaw" classname="sample.test" time="22.72" assertions="7">
 
     
 
@@ -24,8 +24,30 @@
     
     </testcase>
   
-    <testcase name="Click the &#34;Home Page Link&#34;" classname="sample.test" time="7.868" assertions="1">  <failure message="Navigation Link List is visible">    at Page.clickHomePageLink (C:/Users/micks/Desktop/Stuff/NodeJS Projects/Nightwatch-Tutorials/page_elements/navbar.js:19:10)
-    at Object.ClickTheHomePageLink [as Click the &#34;Home Page Link&#34;] (C:/Users/micks/Desktop/Stuff/NodeJS Projects/Nightwatch-Tutorials/tests/sample.test.js:18:10)</failure>
+    <testcase name="Submit Test Post" classname="sample.test" time="1.815" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click the &#34;Home Page Link&#34;" classname="sample.test" time="5.961" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Go to Profile" classname="sample.test" time="3.981" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Click Settings" classname="sample.test" time="14.83" assertions="2">
+
+    
 
     
     </testcase>

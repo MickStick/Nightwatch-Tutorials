@@ -1,7 +1,7 @@
 const elements = {
      //CSS Selectors because well.... I only feel like use CSS right still and stills
-     unameInputField:{selector: '#uname'},
-     pwordInputField:{selector: '#pword'},
+     unameInputField:{selector: '#unameIn'},
+     pwordInputField:{selector: '#pwordIn'},
      loginButton:{selector: '#logBtn'},
      appAccept:{selector: '.text-center>a'},
      loginForm:{selector: '.loginForm'}
