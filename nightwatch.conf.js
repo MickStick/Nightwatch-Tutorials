@@ -26,7 +26,7 @@ var SELENIUM = {
 }
 
 var DEFUALT = {
-    launch_url: "http://www.qualityworkscg.com/",
+    launch_url: "https://phptest-mikshaw.c9users.io//",
     selenium_port: 4444,
     silent: true,
     screenshots: {
@@ -52,7 +52,7 @@ module.exports = {
     custom_commands_path: "custom/commands",
     custom_assertions_path: "",
     page_objects_path: [
-        "page_objects"
+        "page_elements"
     ],
     globals_path: "custom/global/globals.js",
     selenium: SELENIUM,
