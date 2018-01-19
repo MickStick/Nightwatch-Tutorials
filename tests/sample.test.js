@@ -26,6 +26,15 @@ export default {
         .clickHomePageLink()
         .assert.title('PHP Tutorial Application | Home');
     },
+    'Search for "Wembley Williams"' (browser){
+        const navbar = browser.page.navbar();
+
+        navbar
+        .SearchForUser("Wembley Williams");
+
+        browser.pause(5000);
+    },
+
     'Go to Profile' (browser){
         const navbar = browser.page.navbar();
 
@@ -34,13 +43,13 @@ export default {
 
     },
 
-    'Click Settings' (browser){
+    'Click Logout' (browser){
         const navbar = browser.page.navbar();
 
         navbar
         .LogOutCurrentUser();
 
-        browser.pause(10000);
+        browser.pause(5000);
     },
 
     after(browser) {

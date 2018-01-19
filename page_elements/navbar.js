@@ -40,6 +40,15 @@ const commands = {
             .waitThenClick('@logoutLink','User has beeen logged out');
         });
         
+    },
+
+    SearchForUser(user){
+        return this
+        .moveToElement('@searchBar', 10, 10, () => {
+            this
+            .waitThenEnterValue('@searchBar',user,'Users name has been entered in the user search field')
+            .waitThenClick('@searchBtn','user search Button has been clicked');
+        })
     }
 }
 
